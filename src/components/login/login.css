@@ -1,0 +1,167 @@
+body{
+    height:850px;
+}
+
+
+.logo-2 img{
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.title h1{
+    color: white;
+    margin-top: 50px;
+    margin-left: 45px;
+    font-size: 70px;
+}
+.title p{
+    margin-top: 50px;
+    margin-left: 45px;
+    font-weight: 700;
+    color: white;
+    font-size: 32px;
+}
+.meios-de-login{
+    margin-left: 45px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.meios-de-login img{
+   width: 25px;
+}
+.meios-de-login #google{
+    top: 360px;
+    margin-left: 15px;
+position: absolute;
+}
+.meios-de-login #iphone{
+    position: absolute;
+    top: 410px;
+    margin-left: 15px;
+}
+.iphone{
+    position: relative;
+}
+.meios-de-login a{
+    width: 300px;
+    padding: 10px;
+    border-radius: 45px;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.meios-de-login a:hover{
+    background:     #E6E6E6;
+}
+.children{
+  display: flex;
+  flex-direction: row;
+}
+.quebra-1{
+    margin-left: 45px;
+    height: 1px;
+    width: 120px;
+    margin-top: 25px;
+    background: gray;
+}
+.quebra-2{
+    margin-left: 5px;
+    height: 1px;
+    width: 120px;
+    margin-top: 25px;
+    background: gray;
+}
+.title-quebra p{
+    margin-left: 5px;
+    margin-top: 15px;
+    color: white;
+}
+.telefone{
+    margin-top: 25px;
+}
+.telefone a{
+    text-decoration: none;
+    color: white;
+    border-radius: 45px;
+    background-color: #1A8CD8;
+    padding: 10px;
+    margin-left: 35px;
+}
+.end-form{
+    max-width: 325px;
+    margin-left: 45px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: white;
+}
+.end-form a{
+    text-decoration: none;
+    color: #1A8CD8;
+}
+.end{
+    margin-top: 55px;
+    margin-left: 45px;
+}
+.end h1{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: white;
+   
+}
+.ent a{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 45px;
+    padding-right: 120px;
+    padding-left: 120px;
+    text-decoration: none;
+    border: 1px solid #24323C;
+    color: #1A8CD8;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.ent a:hover{
+    background: #031019;
+}
+footer{
+    margin-top: 60px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+footer a{
+    color: grey;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+@media (max-width: 600px){
+    .content{
+        margin-left: -300px;
+    }
+    .title h1{
+        font-size: 32px;
+    }
+    .title p{
+        font-size: 32px;
+    }
+    .meios-de-login #google{
+        top: 350px;
+  
+    }
+    .meios-de-login #iphone{
+        position: absolute;
+        top: 400px;
+        margin-left: 15px;
+    }
+    footer{
+        margin-top: 400px;
+    }
+}

@@ -1,0 +1,29 @@
+body{
+    background: black;
+}
+.img-banner img{
+    position: relative;
+    width: 600px;
+    height: 750px;
+}
+.logo img{
+    left: 95px;
+    width: 350px;
+    top: 0;
+    position: absolute;
+}
+ 
+@media (max-width: 600px){
+    .img-banner img{
+        margin-top: 750px;
+        height:300px;
+        width: 132%;
+
+    }
+    .logo img{
+ 
+        left: 105px;
+        width: 150px;
+    }
+
+}
